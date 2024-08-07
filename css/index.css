@@ -1,10 +1,10 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    min-width: 500px;
+  min-width: 500px;
 }
 
 p,
@@ -18,437 +18,438 @@ li,
 a,
 button,
 input {
-    font-family: "adobe-garamond-pro";
-    font-weight: 400;
+  font-family: "adobe-garamond-pro";
+  font-weight: 400;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 /* header */
 
 .header {
-    background-image: url(/images/banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
 .header-upper {
-    position: fixed;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    transition: 0.5s;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  transition: 0.5s;
 }
 
-.header-in{
-    display: flex;
-    justify-content: space-between;
-    padding: 40px 75px;
+.header-in {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 75px;
 }
 
 .header-title {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 .header-menu {
-    display: flex;
-    align-items: center;
-    gap: 35px;
-    font-size: 19px;
-    padding-left: 115px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  font-size: 19px;
+  padding-left: 115px;
 }
 
 .socials {
-    display: flex;
-    gap: 40px;
-    align-items: center;
+  display: flex;
+  gap: 40px;
+  align-items: center;
 }
 
 .drop-socials {
-    margin-top: 10px;
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100px;
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100px;
 }
 
 .icon {
-    width: 16px;
+  width: 16px;
 }
 
 .cart {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
 .cart-svg {
-    width: 25px;
+  width: 25px;
 }
 
 .cart-count {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .header-bottom {
-    align-self: center;
-    color: white;
-    font-size: 35px;
-    
-    text-align: center;
+  align-self: center;
+  color: white;
+  font-size: 35px;
+
+  text-align: center;
 }
 
 .header-bottom button {
-    color: white;
-    font-size: 21px;
-    margin-top: 20px;
-    padding:20px 55px;
-    background-color: rgb(168,166,161);
-    border: none;
+  color: white;
+  font-size: 21px;
+  margin-top: 20px;
+  padding: 20px 55px;
+  background-color: rgb(168, 166, 161);
+  border: none;
 }
 
 .header-bottom button:hover {
-    transition: 0.3s;
-    opacity: 0.8;
-    cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 .main {
-    width: 100%;
-    min-width: 350px;
+  width: 100%;
+  min-width: 350px;
 }
 
 .main-upper {
-    background-color: rgb(56,56,59);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
+  background-color: rgb(56, 56, 59);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
 }
 
 .fan-favorites {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: auto;
-    padding: 126px 0px;
-    gap: 75px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  padding: 126px 0px;
+  gap: 75px;
 }
 
 .upper-title {
-    font-size: 40px;
-    padding-bottom: 75px;
-    margin: auto;
+  font-size: 40px;
+  padding-bottom: 75px;
+  margin: auto;
 }
 
 .upper-items {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    flex: 1;
-    max-width: 387px;
-    min-height: 350px;
-    min-width: 225px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex: 1;
+  max-width: 387px;
+  min-height: 350px;
+  min-width: 225px;
 }
 
 .item {
-    width: 100%;
-    height: 100%;
-    max-width: 387px;
-    max-height: 516px;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  max-width: 387px;
+  max-height: 516px;
+  object-fit: cover;
 }
 
 .section div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
 }
 
 .section span {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .section button {
-    color: white;
-    font-size: 18px;
-    margin-top: 20px;
-    padding:20px 30px;
-    background-color: rgb(168,166,161);
-    border: none;
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 20px 30px;
+  background-color: rgb(168, 166, 161);
+  border: none;
 }
 
 .section div button:hover {
-    transition: 0.3s;
-    opacity: 0.8;
-    cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 .main-banner {
-    background-image: url(/images/banner-2.jpg);
-    min-height: 615px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background-image: url("../images/banner-2.jpg");
+  min-height: 615px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .gif {
-    max-width: 595px;
-    max-height: 394px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  max-width: 595px;
+  max-height: 394px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .journal {
-    background-color: rgb(168,166,161);
-    color: white;
-    width: 100%;
-    padding: 200px 0;
+  background-color: rgb(168, 166, 161);
+  color: white;
+  width: 100%;
+  padding: 200px 0;
 }
 
 .journal-inside {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
 }
 
 .journal-items {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .gif-section {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 595px;
-    min-width: 470px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 595px;
+  min-width: 470px;
 }
 
 .gif-section div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
 }
 
 .gif-section div span {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 .gif-section div p {
-    text-align: center;
-    font-size: 19px;
+  text-align: center;
+  font-size: 19px;
 }
 
 .gif-section div button {
-    color: rgb(168,166,161);
-    font-size: 21px;
-    margin-top: 20px;
-    padding:20px 55px;
-    background-color: white;
-    border: none;
+  color: rgb(168, 166, 161);
+  font-size: 21px;
+  margin-top: 20px;
+  padding: 20px 55px;
+  background-color: white;
+  border: none;
 }
 
 .bottom-main-banner {
-    background-image: url(/images/banner-3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    padding: 100px 0 150px;
+  background-image: url("../images/banner-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 100px 0 150px;
 }
 
 .bottom-main-banner h1 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .bottom-main-banner p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .bottom-main-banner input {
-    padding: 25px 70px 25px 35px;
-    font-size: 18px;
+  padding: 25px 70px 25px 35px;
+  font-size: 18px;
 }
 
 .bottom-main-banner button {
-    color: white;
-    font-size: 18px;
-    margin-top: 20px;
-    padding:20px 30px;
-    background-color: rgb(168,166,161);
-    border: none;
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 20px 30px;
+  background-color: rgb(168, 166, 161);
+  border: none;
 }
 
 .bottom-main-banner button:hover {
-    transition: 0.3s;
-    opacity: 0.8;
-    cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 .bottom {
-    background-color: rgb(168,166,161);
-    width: 100%;
+  background-color: rgb(168, 166, 161);
+  width: 100%;
 }
 
 .bottom-content {
-    display: flex;
-    justify-content: center;
-    width: 80%;
-    margin: auto;
-    padding: 125px 0;
-    color: white;
-    gap: 110px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  padding: 125px 0;
+  color: white;
+  gap: 110px;
+  flex-wrap: wrap;
 }
 
 .bottom-image {
-    max-height: 650px;
-    max-width: 545px;
-    width: 100%;
-    height: 100%;
+  max-height: 650px;
+  max-width: 545px;
+  width: 100%;
+  height: 100%;
 }
 
 .bottom-content div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    max-width: 33%;
-    gap: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 33%;
+  gap: 25px;
 }
 
 .bottom-content div h1 {
-    font-size: 45px;
+  font-size: 45px;
 }
 
 .bottom-content div p {
-    font-size: 20px;
-    line-height: 1.6;
+  font-size: 20px;
+  line-height: 1.6;
 }
 
 .bottom-content div button {
-    color: rgb(168,166,161);
-    font-size: 21px;
-    margin-top: 20px;
-    padding:18px 60px;
-    background-color: white;
-    border: none;
-    font-size: 20px;
+  color: rgb(168, 166, 161);
+  font-size: 21px;
+  margin-top: 20px;
+  padding: 18px 60px;
+  background-color: white;
+  border: none;
+  font-size: 20px;
 }
 
 /* footer */
 
 .footer {
-    width: 100%;
-    background-color: rgb(56,56,59);
-    color: #fff;
+  width: 100%;
+  background-color: rgb(56, 56, 59);
+  color: #fff;
 }
 
 .footer-in {
-    margin: auto;
-    display: flex;
-    padding: 100px 0;
-    width: 60%;
-    justify-content: center;
+  margin: auto;
+  display: flex;
+  padding: 100px 0;
+  width: 60%;
+  justify-content: center;
 }
 
 .footer-left {
-    flex: 2;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
-.footer-left>h1 {
-    font-size: 40px;
-    padding: 0;
-    margin: 0;
+.footer-left > h1 {
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
 }
 
 .footer-left p {
-    font-size: 20px;
-    margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .footer-right {
-    flex: 1;
-    display: flex;
-    min-width: 200px;
+  flex: 1;
+  display: flex;
+  min-width: 200px;
 }
 
 .footer-right div {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  font-size: 20px;
 }
 
 .footer a {
-    text-decoration: underline;
-    color: rgb(168,166,161);
+  text-decoration: underline;
+  color: rgb(168, 166, 161);
 }
 
 .footer-socials {
-    display: flex;
-    gap: 15px;
-    align-items: center;
+  display: flex;
+  gap: 15px;
+  align-items: center;
 }
 
 .line {
-    width: 50px;
-    height: 5px;
-    background-color: #fff;
-    display: none;
-    margin: 5px;
+  width: 50px;
+  height: 5px;
+  background-color: #fff;
+  display: none;
+  margin: 5px;
 }
 
-  .dropdown-content {
-    display: none;
-  }
+.dropdown-content {
+  display: none;
+}
 
-  .dropdown-content.active {
-    display: none;
-  }
-
-
-
-
-
+.dropdown-content.active {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: rgb(56, 56, 59);
+  transition: all 0.5s ease-in-out;
+  padding: 10px;
+  border-radius: 5px;
+}

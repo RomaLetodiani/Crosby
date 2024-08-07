@@ -1,155 +1,169 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    rel="stylesheet">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <script src="/js/main.js"></script>
-    <link rel="stylesheet" href="https://use.typekit.net/qkw7htz.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <script src="./js/main.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/qkw7htz.css" />
     <title>Crosby</title>
-    
-</head>
-<body>
+  </head>
+  <body>
     <!-- https://crosby-fluid-demo.squarespace.com/ -->
 
     <!-- header -->
     <div class="header">
-        <div class="header-upper">
-            <div class="header-in">
-                <a href="#"  class="header-title">Crosby</a>
-                <div class="dropdown">
-                    <div class="dropdown-header">
-                      <div class="line" onclick="toggleDropdownVisibility()"></div>
-                      <div class="line" onclick="toggleDropdownVisibility()"></div>
-                    </div>
-                    <div class="dropdown-content">
-                      <div class="dropdown-item"><a href="#">Shop</a></div>
-                      <div class="dropdown-item"><a href="#">Our Story</a></div>
-                      <div class="dropdown-item"><a href="#">Journal</a></div>
-                      <div class="dropdown-item"><a href="#">Contact</a></div>
-                      <div class="dropdown-item">
-                          <div class="drop-socials">
-                            <a href="#"><img src="/images/insta.png" alt="insta" class="icon"></a>
-                            <a href="#"><img src="/images/FB.png" alt="FB" class="icon"></a>
-                            <a href="#"><img src="/images/twitter.png" alt="twitter" class="icon"></a>
-                            <a href="#" class="cart"> <img src="/images/cart.svg" alt="cart" class="cart-svg"> <span class="cart-count" id="countElement">0</span></a>
-                                              </div>
-                      </div>
-                    </div>
-                  </div>
-                <div class="header-menu">
-                    <a href="#">Shop</a>
-                    <a href="#">Our Story</a>
-                    <a href="#">Journal</a>
-                    <a href="#">Contact</a>
-                </div>
-                <div class="socials">
-                    <a href="#"><img src="/images/insta.png" alt="insta" class="icon"></a>
-                    <a href="#"><img src="/images/FB.png" alt="FB" class="icon"></a>
-                    <a href="#"><img src="/images/twitter.png" alt="twitter" class="icon"></a>
-                    <a href="#" class="cart"> <img src="/images/cart.svg" alt="cart" class="cart-svg"> <span class="cart-count" id="countElement">0</span></a>
-                </div>
+      <div class="header-upper">
+        <div class="header-in">
+          <a href="#" class="header-title">Crosby</a>
+          <div class="dropdown">
+            <div class="dropdown-header">
+              <div class="line" onclick="toggleDropdownVisibility()"></div>
+              <div class="line" onclick="toggleDropdownVisibility()"></div>
             </div>
+            <div class="dropdown-content">
+              <div class="dropdown-item"><a href="#">Shop</a></div>
+              <div class="dropdown-item"><a href="#">Our Story</a></div>
+              <div class="dropdown-item"><a href="#">Journal</a></div>
+              <div class="dropdown-item"><a href="#">Contact</a></div>
+              <div class="dropdown-item">
+                <div class="drop-socials">
+                  <a href="#"><img src="/images/insta.png" alt="insta" class="icon" /></a>
+                  <a href="#"><img src="/images/FB.png" alt="FB" class="icon" /></a>
+                  <a href="#"><img src="/images/twitter.png" alt="twitter" class="icon" /></a>
+                  <a href="#" class="cart">
+                    <img src="/images/cart.svg" alt="cart" class="cart-svg" />
+                    <span class="cart-count" id="countElement">0</span></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header-menu">
+            <a href="#">Shop</a>
+            <a href="#">Our Story</a>
+            <a href="#">Journal</a>
+            <a href="#">Contact</a>
+          </div>
+          <div class="socials">
+            <a href="#"><img src="/images/insta.png" alt="insta" class="icon" /></a>
+            <a href="#"><img src="/images/FB.png" alt="FB" class="icon" /></a>
+            <a href="#"><img src="/images/twitter.png" alt="twitter" class="icon" /></a>
+            <a href="#" class="cart">
+              <img src="/images/cart.svg" alt="cart" class="cart-svg" />
+              <span class="cart-count" id="countElement">0</span></a
+            >
+          </div>
         </div>
-        <div class="header-bottom">
-            <h1>Plants and Pots</h1>
-            <h1>For Your Home</h1>
-            <button>Shop Now</button>
-        </div>
+      </div>
+      <div class="header-bottom">
+        <h1>Plants and Pots</h1>
+        <h1>For Your Home</h1>
+        <button>Shop Now</button>
+      </div>
     </div>
 
     <!-- main -->
     <div class="main">
-        <div class="main-upper">
-            <div class="fan-favorites">
-                <div class="upper-title">Fan Favorites</div>
-                <div class="upper-items">
-                    <div class="section">
-                        <img src="/images/image-1.jpg" alt="Lil' Guys" class="item">
-                        <span>Lil' Guys</span>
-                        <button onclick="incrementCount()">Buy Now</button>
-                    </div>
-                    <div class="section">
-                        <img src="/images/image-2.jpg" alt="Bigger Statements" class="item">
-                        <span>Bigger Statements</span>
-                        <button onclick="incrementCount()">Buy Now</button>
-                    </div>
-                    <div class="section">
-                        <img src="/images/image-3.jpg" alt="Low Maintenance" class="item">
-                        <span>Low Maintenance</span>
-                        <button onclick="incrementCount()">Buy Now</button>
-                    </div>
-                </div>
+      <div class="main-upper">
+        <div class="fan-favorites">
+          <div class="upper-title">Fan Favorites</div>
+          <div class="upper-items">
+            <div class="section">
+              <img src="/images/image-1.jpg" alt="Lil' Guys" class="item" />
+              <span>Lil' Guys</span>
+              <button onclick="incrementCount()">Buy Now</button>
             </div>
-        </div>
-        <div class="main-banner"></div>
-        <div class="journal">
-            <div class="journal-inside">
-                <div class="upper-title">The Journal</div>
-                <div class="journal-items">
-                    <div class="gif-section">
-                        <img src="/images/plant-gif-1.gif" alt="Flowers" class="gif">
-                        <div>
-                            <span>Is It Flowers You're After?</span>
-                            <p>Flowering plants are stunning, but require a bit more work than their non-flowering brethren. Learn how to keep them happy.</p>
-                            <button>Read More</button>
-                        </div>
-                    </div>
-                    <div class="gif-section">
-                        <img src="/images/plant-gif-2.gif" alt="Succulents" class="gif">
-                        <div>
-                            <span>Searching for Succulents?</span>
-                            <p>If you have a sunny windowsill, you can be a succulent owner. These hardy and beautiful plants are as easy as they come.</p>
-                            <button>Read More</button>
-                        </div>
-                    </div>
-                </div>
+            <div class="section">
+              <img src="/images/image-2.jpg" alt="Bigger Statements" class="item" />
+              <span>Bigger Statements</span>
+              <button onclick="incrementCount()">Buy Now</button>
             </div>
-        </div>
-        <div class="bottom-main-banner"> 
-            <h1>They grow up so fast.</h1>
-            <p>Don't miss a thing. Sign up to receive news and updates.</p>
-            <input type="email" id="email" name="email" placeholder="Email Address">
-            <button>Sign Up</button>
-        </div>
-        <div class="bottom">
-            <div class="bottom-content">
-                <img src="/images/image-5.jpg" alt="gift card" class="bottom-image">
-                <div>
-                    <h1>Give the Gift of Greenery</h1>
-                    <p>Plants are as thoughtful a gift as flowers and last much longer. With a gift card, you can brighten up someone's home, office or dorm room with a potted plant of their choice. They're available in any denomination and we'll mail it for free!</p>
-                    <button>Purchase a Gift Card</button>
-                </div>
+            <div class="section">
+              <img src="/images/image-3.jpg" alt="Low Maintenance" class="item" />
+              <span>Low Maintenance</span>
+              <button onclick="incrementCount()">Buy Now</button>
             </div>
+          </div>
         </div>
+      </div>
+      <div class="main-banner"></div>
+      <div class="journal">
+        <div class="journal-inside">
+          <div class="upper-title">The Journal</div>
+          <div class="journal-items">
+            <div class="gif-section">
+              <img src="/images/plant-gif-1.gif" alt="Flowers" class="gif" />
+              <div>
+                <span>Is It Flowers You're After?</span>
+                <p>
+                  Flowering plants are stunning, but require a bit more work than their
+                  non-flowering brethren. Learn how to keep them happy.
+                </p>
+                <button>Read More</button>
+              </div>
+            </div>
+            <div class="gif-section">
+              <img src="/images/plant-gif-2.gif" alt="Succulents" class="gif" />
+              <div>
+                <span>Searching for Succulents?</span>
+                <p>
+                  If you have a sunny windowsill, you can be a succulent owner. These hardy and
+                  beautiful plants are as easy as they come.
+                </p>
+                <button>Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-main-banner">
+        <h1>They grow up so fast.</h1>
+        <p>Don't miss a thing. Sign up to receive news and updates.</p>
+        <input type="email" id="email" name="email" placeholder="Email Address" />
+        <button>Sign Up</button>
+      </div>
+      <div class="bottom">
+        <div class="bottom-content">
+          <img src="/images/image-5.jpg" alt="gift card" class="bottom-image" />
+          <div>
+            <h1>Give the Gift of Greenery</h1>
+            <p>
+              Plants are as thoughtful a gift as flowers and last much longer. With a gift card, you
+              can brighten up someone's home, office or dorm room with a potted plant of their
+              choice. They're available in any denomination and we'll mail it for free!
+            </p>
+            <button>Purchase a Gift Card</button>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- footer -->
     <div class="footer">
-        <div class="footer-in">
-            <div class="footer-left">
-                <h1>Crosby</h1>
-                <p>Made with <a href="">Squarespace</a></p>
-                <span class="footer-socials">
-                    <a href="#"><img src="/images/insta.png" alt="insta" class="icon"></a>
-                    <a href="#"><img src="/images/FB.png" alt="FB" class="icon"></a>
-                    <a href="#"><img src="/images/twitter.png" alt="twitter" class="icon"></a>
-                </span>
-            </div>
-            <div class="footer-right">
-                <div>
-                    <a href="">Shop</a>
-                    <a href="">Our Story</a>
-                </div>
-                <div>
-                    <a href="">Journal</a>
-                    <a href="">Contact</a>
-                </div>
-            </div>
+      <div class="footer-in">
+        <div class="footer-left">
+          <h1>Crosby</h1>
+          <p>Made with <a href="">Squarespace</a></p>
+          <span class="footer-socials">
+            <a href="#"><img src="/images/insta.png" alt="insta" class="icon" /></a>
+            <a href="#"><img src="/images/FB.png" alt="FB" class="icon" /></a>
+            <a href="#"><img src="/images/twitter.png" alt="twitter" class="icon" /></a>
+          </span>
         </div>
+        <div class="footer-right">
+          <div>
+            <a href="">Shop</a>
+            <a href="">Our Story</a>
+          </div>
+          <div>
+            <a href="">Journal</a>
+            <a href="">Contact</a>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
